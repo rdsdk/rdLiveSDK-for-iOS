@@ -1,0 +1,13 @@
+{
+   "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "tou",
+      "frames": 75,
+      "height": 454,
+      "width": 642,
+      "type": 2,
+      "pPoint":5
+    }
+  ]
+}

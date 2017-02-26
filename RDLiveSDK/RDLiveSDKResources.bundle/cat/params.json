@@ -1,0 +1,42 @@
+{
+ 
+  "frameDuration": 83,
+
+  "itemList": [
+    {
+      "id": "hudiejie",
+	  "frames": 24,
+      "width": 276,
+      "height": 279,
+      "type": 2,
+      "pPoint": 6
+    },
+    {
+      "id": "huxu",
+      "frames": 12,
+      "width": 623,
+      "height": 233,
+      "type": 2,
+      "pPoint":4
+    },
+    {
+      "id": "erduo",
+      "frames": 12,
+      "width": 672,
+      "height": 318,
+      "type": 2,
+	  "pPoint":5
+    },
+    {
+      "id": "maozhua",
+      "frames": 36,
+      "width": 354,
+      "height": 384,
+      "type": 1,
+      "position": [
+        0.5,
+        0.6001
+      ]
+    }
+  ]
+}

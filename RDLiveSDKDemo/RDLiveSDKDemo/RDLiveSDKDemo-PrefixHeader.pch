@@ -1,0 +1,20 @@
+//
+//  RDLiveSDKDemo-PrefixHeader.pch
+//  RDLiveSDKDemo
+//
+//  Created by Wuxiaoxia on 16/5/15.
+//  Copyright © 2016年 北京锐动天地信息技术有限公司. All rights reserved.
+//
+
+#define EVER_LAUCHED            @"everLaunchedv_1.0"
+
+#define APPKEY  @"631c39cb35047e92"
+#define SECRETKEY  @"be9d6d860c077aef2d12282e316b2618Gb3/fSIN7szk2jpy+nXnb9Uz7FrtnMLsFjJZXURdWJMfVeHl/mUKDcoYrQDnA/lSnBeJit7JjRN/7m2/wwEKgCkGqGNrOrG1sNw+O3O9y4nhc8xJa5J3b8i76GJ3JUtIqyhfal/EzITn1XFgItGI86n0TmJBO76L63Dca3nt1KsBde0fQ80OER7XYR4IaBdQEq7ZyRTAP3kIs0hUs+TywZo63ux3DSt9oEtMTa3E8MrQq1l4oQ8oY9UIA7Ft1rbin781zkB0K/S6MJy8axrNY7JDE8cEcbPYvzFc2/BZAW7RM2oT4FV4z6I0Wx6NJLyWjApBe7qRtqmFtY/HP8rpqmbcH1Z2W9QF9FE8Xw3k/edTQGt5/SqjU7zdkzD26vxDvQGbA2hTCsq+ea1gGczJd2YnH8fS0kvLnUWJT2C0E+NApWcqTNR+SmrBwirFPMPdwlWBSj9kS741R3UC/4kLnw=="
+
+#define SYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define CommonColor 0xfe3569

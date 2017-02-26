@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181A0AEA1D532F3A000CB0BF /* livePause.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 181A0AE91D532F3A000CB0BF /* livePause.jpg */; };
+		181C932E1CDC815A00AE90E7 /* LivePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C932C1CDC815A00AE90E7 /* LivePlayerViewController.m */; };
+		181C933A1CDC855E00AE90E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181C93391CDC855E00AE90E7 /* UIKit.framework */; };
+		181C933C1CDC856200AE90E7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181C933B1CDC856200AE90E7 /* AVFoundation.framework */; };
+		182173B71E518F6300B71FA2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1835ED2A1E1C845A001CCC1D /* CoreMotion.framework */; };
+		182C7D331E5ED2CC00265A93 /* libRDLiveSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C7D321E5ED2CC00265A93 /* libRDLiveSDK.a */; };
+		182C7D381E5ED2ED00265A93 /* libRDRTMPPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C7D371E5ED2ED00265A93 /* libRDRTMPPlayer.a */; };
+		182D4FEE1E2DEDDB0076ECD5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D4FED1E2DEDDB0076ECD5 /* MainViewController.m */; };
+		182FCE261CE7480300F7B469 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FCE251CE7480300F7B469 /* libz.tbd */; };
+		182FCE2A1CE7481300F7B469 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FCE291CE7481300F7B469 /* libiconv.2.4.0.tbd */; };
+		182FCE2E1CE748A100F7B469 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FCE2D1CE748A100F7B469 /* libbz2.1.0.tbd */; };
+		182FCE301CE748A800F7B469 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FCE2F1CE748A800F7B469 /* libstdc++.tbd */; };
+		182FCE321CE7498400F7B469 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FCE311CE7498400F7B469 /* VideoToolbox.framework */; };
+		1835ED341E1C8C9B001CCC1D /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835ED331E1C8C9B001CCC1D /* LiveViewController.m */; };
+		1835ED371E1C8CE3001CCC1D /* RDLiveSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1835ED361E1C8CE3001CCC1D /* RDLiveSDKResources.bundle */; };
+		183D30CE1E3069C800834DE1 /* Better Times Ahead.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 183D30CB1E3069C800834DE1 /* Better Times Ahead.m4a */; };
+		183D30CF1E3069C800834DE1 /* Bouncy Party.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 183D30CC1E3069C800834DE1 /* Bouncy Party.m4a */; };
+		183D30D41E308D7F00834DE1 /* Like A Bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183D30D31E308D7F00834DE1 /* Like A Bullet.mp3 */; };
+		183D30DA1E30A69B00834DE1 /* 直播_水印.png in Resources */ = {isa = PBXBuildFile; fileRef = 183D30D91E30A69B00834DE1 /* 直播_水印.png */; };
+		1840C01B1CF8454A00C4E70B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840C01A1CF8454A00C4E70B /* Reachability.m */; };
+		1840F35C1E2F1826000B8A80 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840F35B1E2F1826000B8A80 /* AssetsLibrary.framework */; };
+		1840F35E1E2F1843000B8A80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840F35D1E2F1843000B8A80 /* CoreLocation.framework */; };
+		189C946D1CDB50FB00CE1795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C946C1CDB50FB00CE1795 /* main.m */; };
+		189C94701CDB50FB00CE1795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C946F1CDB50FB00CE1795 /* AppDelegate.m */; };
+		189C94781CDB50FB00CE1795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C94771CDB50FB00CE1795 /* Assets.xcassets */; };
+		189C947B1CDB50FB00CE1795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C94791CDB50FB00CE1795 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181A0AE91D532F3A000CB0BF /* livePause.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livePause.jpg; sourceTree = "<group>"; };
+		181C932B1CDC815A00AE90E7 /* LivePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePlayerViewController.h; sourceTree = "<group>"; };
+		181C932C1CDC815A00AE90E7 /* LivePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayerViewController.m; sourceTree = "<group>"; };
+		181C932F1CDC81CF00AE90E7 /* RDLiveSDKDemo-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RDLiveSDKDemo-PrefixHeader.pch"; sourceTree = "<group>"; };
+		181C93391CDC855E00AE90E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181C933B1CDC856200AE90E7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		182C7D311E5ED2CC00265A93 /* RDLiveSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDLiveSDK.h; sourceTree = "<group>"; };
+		182C7D321E5ED2CC00265A93 /* libRDLiveSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRDLiveSDK.a; sourceTree = "<group>"; };
+		182C7D351E5ED2ED00265A93 /* RDRTMPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRTMPPlayer.h; sourceTree = "<group>"; };
+		182C7D361E5ED2ED00265A93 /* RDRtspToRtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRtspToRtmp.h; sourceTree = "<group>"; };
+		182C7D371E5ED2ED00265A93 /* libRDRTMPPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRDRTMPPlayer.a; sourceTree = "<group>"; };
+		182D4FEC1E2DEDDB0076ECD5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		182D4FED1E2DEDDB0076ECD5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		182FCE251CE7480300F7B469 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		182FCE291CE7481300F7B469 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		182FCE2D1CE748A100F7B469 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		182FCE2F1CE748A800F7B469 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		182FCE311CE7498400F7B469 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		1835ED2A1E1C845A001CCC1D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1835ED321E1C8C9B001CCC1D /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		1835ED331E1C8C9B001CCC1D /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		1835ED361E1C8CE3001CCC1D /* RDLiveSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RDLiveSDKResources.bundle; sourceTree = "<group>"; };
+		183D30CB1E3069C800834DE1 /* Better Times Ahead.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Better Times Ahead.m4a"; sourceTree = "<group>"; };
+		183D30CC1E3069C800834DE1 /* Bouncy Party.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bouncy Party.m4a"; sourceTree = "<group>"; };
+		183D30D31E308D7F00834DE1 /* Like A Bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Like A Bullet.mp3"; sourceTree = "<group>"; };
+		183D30D91E30A69B00834DE1 /* 直播_水印.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播_水印.png"; sourceTree = "<group>"; };
+		1840C0191CF8454A00C4E70B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1840C01A1CF8454A00C4E70B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1840F35B1E2F1826000B8A80 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1840F35D1E2F1843000B8A80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		189C94681CDB50FB00CE1795 /* RDLiveSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDLiveSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C946C1CDB50FB00CE1795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189C946E1CDB50FB00CE1795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189C946F1CDB50FB00CE1795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189C94771CDB50FB00CE1795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189C947A1CDB50FB00CE1795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189C947C1CDB50FB00CE1795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C94651CDB50FB00CE1795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182C7D381E5ED2ED00265A93 /* libRDRTMPPlayer.a in Frameworks */,
+				182C7D331E5ED2CC00265A93 /* libRDLiveSDK.a in Frameworks */,
+				182173B71E518F6300B71FA2 /* CoreMotion.framework in Frameworks */,
+				1840F35E1E2F1843000B8A80 /* CoreLocation.framework in Frameworks */,
+				1840F35C1E2F1826000B8A80 /* AssetsLibrary.framework in Frameworks */,
+				182FCE301CE748A800F7B469 /* libstdc++.tbd in Frameworks */,
+				182FCE2E1CE748A100F7B469 /* libbz2.1.0.tbd in Frameworks */,
+				182FCE2A1CE7481300F7B469 /* libiconv.2.4.0.tbd in Frameworks */,
+				182FCE261CE7480300F7B469 /* libz.tbd in Frameworks */,
+				182FCE321CE7498400F7B469 /* VideoToolbox.framework in Frameworks */,
+				181C933C1CDC856200AE90E7 /* AVFoundation.framework in Frameworks */,
+				181C933A1CDC855E00AE90E7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181C93301CDC83FD00AE90E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1840F35D1E2F1843000B8A80 /* CoreLocation.framework */,
+				1840F35B1E2F1826000B8A80 /* AssetsLibrary.framework */,
+				1835ED2A1E1C845A001CCC1D /* CoreMotion.framework */,
+				182FCE311CE7498400F7B469 /* VideoToolbox.framework */,
+				182FCE2F1CE748A800F7B469 /* libstdc++.tbd */,
+				182FCE2D1CE748A100F7B469 /* libbz2.1.0.tbd */,
+				182FCE291CE7481300F7B469 /* libiconv.2.4.0.tbd */,
+				182FCE251CE7480300F7B469 /* libz.tbd */,
+				181C933B1CDC856200AE90E7 /* AVFoundation.framework */,
+				181C93391CDC855E00AE90E7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = RDLiveSDKDemo;
+			sourceTree = "<group>";
+		};
+		182C7D301E5ED2CC00265A93 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				182C7D311E5ED2CC00265A93 /* RDLiveSDK.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		182C7D341E5ED2ED00265A93 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				182C7D351E5ED2ED00265A93 /* RDRTMPPlayer.h */,
+				182C7D361E5ED2ED00265A93 /* RDRtspToRtmp.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		182FCE1A1CE7471600F7B469 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1840C0181CF8454A00C4E70B /* Reachability */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1840C0181CF8454A00C4E70B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1840C0191CF8454A00C4E70B /* Reachability.h */,
+				1840C01A1CF8454A00C4E70B /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		1840F32D1E2F0882000B8A80 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				183D30CB1E3069C800834DE1 /* Better Times Ahead.m4a */,
+				183D30CC1E3069C800834DE1 /* Bouncy Party.m4a */,
+				183D30D31E308D7F00834DE1 /* Like A Bullet.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		189C945F1CDB50FB00CE1795 = {
+			isa = PBXGroup;
+			children = (
+				189C946A1CDB50FB00CE1795 /* RDLiveSDKDemo */,
+				181C93301CDC83FD00AE90E7 /* Frameworks */,
+				189C94691CDB50FB00CE1795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189C94691CDB50FB00CE1795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C94681CDB50FB00CE1795 /* RDLiveSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189C946A1CDB50FB00CE1795 /* RDLiveSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				189C946E1CDB50FB00CE1795 /* AppDelegate.h */,
+				189C946F1CDB50FB00CE1795 /* AppDelegate.m */,
+				182D4FEC1E2DEDDB0076ECD5 /* MainViewController.h */,
+				182D4FED1E2DEDDB0076ECD5 /* MainViewController.m */,
+				1835ED321E1C8C9B001CCC1D /* LiveViewController.h */,
+				1835ED331E1C8C9B001CCC1D /* LiveViewController.m */,
+				181C932B1CDC815A00AE90E7 /* LivePlayerViewController.h */,
+				181C932C1CDC815A00AE90E7 /* LivePlayerViewController.m */,
+				182FCE1A1CE7471600F7B469 /* Others */,
+				18FF37621CFC252700411202 /* RDLiveSDK */,
+				18ECFECA1D8FE215002356D5 /* RDRTMPPlayer */,
+				189C946B1CDB50FB00CE1795 /* Supporting Files */,
+			);
+			path = RDLiveSDKDemo;
+			sourceTree = "<group>";
+		};
+		189C946B1CDB50FB00CE1795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183D30D91E30A69B00834DE1 /* 直播_水印.png */,
+				1840F32D1E2F0882000B8A80 /* music */,
+				181A0AE91D532F3A000CB0BF /* livePause.jpg */,
+				181C932F1CDC81CF00AE90E7 /* RDLiveSDKDemo-PrefixHeader.pch */,
+				189C94771CDB50FB00CE1795 /* Assets.xcassets */,
+				189C94791CDB50FB00CE1795 /* LaunchScreen.storyboard */,
+				189C947C1CDB50FB00CE1795 /* Info.plist */,
+				189C946C1CDB50FB00CE1795 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18ECFECA1D8FE215002356D5 /* RDRTMPPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				182C7D341E5ED2ED00265A93 /* include */,
+				182C7D371E5ED2ED00265A93 /* libRDRTMPPlayer.a */,
+			);
+			name = RDRTMPPlayer;
+			path = ../../RDRTMPPlayer;
+			sourceTree = "<group>";
+		};
+		18FF37621CFC252700411202 /* RDLiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				182C7D301E5ED2CC00265A93 /* include */,
+				182C7D321E5ED2CC00265A93 /* libRDLiveSDK.a */,
+				1835ED361E1C8CE3001CCC1D /* RDLiveSDKResources.bundle */,
+			);
+			name = RDLiveSDK;
+			path = ../../RDLiveSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C94671CDB50FB00CE1795 /* RDLiveSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C947F1CDB50FB00CE1795 /* Build configuration list for PBXNativeTarget "RDLiveSDKDemo" */;
+			buildPhases = (
+				189C94641CDB50FB00CE1795 /* Sources */,
+				189C94651CDB50FB00CE1795 /* Frameworks */,
+				189C94661CDB50FB00CE1795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDLiveSDKDemo;
+			productName = RDLiveSDKDemo;
+			productReference = 189C94681CDB50FB00CE1795 /* RDLiveSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C94601CDB50FB00CE1795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wuxiaoxia;
+				TargetAttributes = {
+					189C94671CDB50FB00CE1795 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 189C94631CDB50FB00CE1795 /* Build configuration list for PBXProject "RDLiveSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189C945F1CDB50FB00CE1795;
+			productRefGroup = 189C94691CDB50FB00CE1795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C94671CDB50FB00CE1795 /* RDLiveSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C94661CDB50FB00CE1795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183D30DA1E30A69B00834DE1 /* 直播_水印.png in Resources */,
+				1835ED371E1C8CE3001CCC1D /* RDLiveSDKResources.bundle in Resources */,
+				181A0AEA1D532F3A000CB0BF /* livePause.jpg in Resources */,
+				183D30CF1E3069C800834DE1 /* Bouncy Party.m4a in Resources */,
+				189C947B1CDB50FB00CE1795 /* LaunchScreen.storyboard in Resources */,
+				189C94781CDB50FB00CE1795 /* Assets.xcassets in Resources */,
+				183D30D41E308D7F00834DE1 /* Like A Bullet.mp3 in Resources */,
+				183D30CE1E3069C800834DE1 /* Better Times Ahead.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C94641CDB50FB00CE1795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835ED341E1C8C9B001CCC1D /* LiveViewController.m in Sources */,
+				181C932E1CDC815A00AE90E7 /* LivePlayerViewController.m in Sources */,
+				189C94701CDB50FB00CE1795 /* AppDelegate.m in Sources */,
+				182D4FEE1E2DEDDB0076ECD5 /* MainViewController.m in Sources */,
+				1840C01B1CF8454A00C4E70B /* Reachability.m in Sources */,
+				189C946D1CDB50FB00CE1795 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189C94791CDB50FB00CE1795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C947A1CDB50FB00CE1795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189C947D1CDB50FB00CE1795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189C947E1CDB50FB00CE1795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189C94801CDB50FB00CE1795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "RDLiveSDKDemo/RDLiveSDKDemo-PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RDLiveSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../RDLiveSDK,
+					../RDRTMPPlayer,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.17rd.RDLiveSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		189C94811CDB50FB00CE1795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "RDLiveSDKDemo/RDLiveSDKDemo-PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RDLiveSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../RDLiveSDK,
+					../RDRTMPPlayer,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.17rd.RDLiveSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C94631CDB50FB00CE1795 /* Build configuration list for PBXProject "RDLiveSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C947D1CDB50FB00CE1795 /* Debug */,
+				189C947E1CDB50FB00CE1795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C947F1CDB50FB00CE1795 /* Build configuration list for PBXNativeTarget "RDLiveSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C94801CDB50FB00CE1795 /* Debug */,
+				189C94811CDB50FB00CE1795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189C94601CDB50FB00CE1795 /* Project object */;
+}

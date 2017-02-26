@@ -1,0 +1,29 @@
+{
+   "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "erduo",
+      "frames": 50,
+      "height": 297,
+      "width": 840,
+      "type": 2,
+      "pPoint":5
+    },
+    {
+      "id": "saihong",
+      "frames": 31,
+      "height": 276,
+      "width": 560,
+      "type": 2,
+      "pPoint":4
+    },
+    {
+      "id": "zhua",
+      "frames": 31,
+      "height": 540,
+      "width": 804,
+      "pPoint": 6,
+      "type": 2
+    } 
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "nose",
+      "frames": 1,
+      "width": 103,
+      "height": 84,
+      "type": 2,
+      "pPoint": 4
+    },
+    {
+      "id": "hongyun",
+      "frames": 6,
+      "width": 605,
+      "height": 251,
+      "type": 2,
+      "pPoint": 4
+    },
+    {
+      "id": "buckhorn",
+      "type": 2,
+      "pPoint": 5,
+      "frames": 12,
+      "width": 852,
+      "height": 290
+    },
+    {
+      "id": "ear",
+      "type": 2,
+      "pPoint": 5,
+      "frames": 12,
+      "width": 769,
+      "height": 158
+    }
+  ]
+}

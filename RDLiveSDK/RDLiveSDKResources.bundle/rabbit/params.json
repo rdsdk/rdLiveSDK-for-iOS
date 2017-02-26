@@ -1,0 +1,37 @@
+{
+   "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "ear",
+      "frames": 24,
+      "height": 404,
+      "width": 780,
+      "type": 2,
+      "pPoint":5
+    },
+    {
+      "id": "huzi",
+      "frames": 12,
+      "height": 240,
+      "width": 616,
+      "type": 2,
+      "pPoint":4
+    },
+    {
+      "id": "nose",
+      "frames": 1,
+      "height": 144,
+      "width": 144,
+      "pPoint": 4,
+      "type": 2
+    },
+    {
+      "id": "tooth",
+      "frames": 24,
+      "height": 68,
+      "width": 76,
+      "type": 2,
+      "pPoint":3
+    }
+  ]
+}

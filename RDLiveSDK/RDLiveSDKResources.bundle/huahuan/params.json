@@ -1,0 +1,21 @@
+{
+   "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "huahuan",
+      "frames": 31,
+      "height": 272,
+      "width": 720,
+      "type": 2,
+      "pPoint":5
+    },
+    {
+      "id": "saihong",
+      "frames": 31,
+      "height": 280,
+      "width": 614,
+      "type": 2,
+      "pPoint":4
+    }
+  ]
+}

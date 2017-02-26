@@ -1,0 +1,29 @@
+{
+  "frameDuration": 83,
+  "itemList": [
+    {
+      "id": "hongyun",
+      "frames": 1,
+      "width": 600,
+      "height": 200,
+      "type": 2,
+      "pPoint":4
+    },
+    {
+      "id": "huangguan",
+      "frames": 24,
+      "width": 700,
+      "height": 500,
+      "type": 2,
+      "pPoint": 5
+    },
+    {
+      "id": "xingxing",
+      "frames": 24,
+      "width": 800,
+      "height": 1200,
+      "type": 2,
+	  "pPoint":4
+    }
+  ]
+}
