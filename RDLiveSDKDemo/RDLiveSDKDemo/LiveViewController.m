@@ -229,7 +229,7 @@ const int           videoBitRate_low = 400*1000;
     liveBtn.titleLabel.font = [UIFont systemFontOfSize:14];
     [liveBtn addTarget:self action:@selector(liveBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:liveBtn];
-#if 0
+
     //左右滑动屏幕切换滤镜
     UISwipeGestureRecognizer *filterGesture = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipeFrom:)];
     [filterGesture setDirection:(UISwipeGestureRecognizerDirectionRight)];
@@ -239,7 +239,6 @@ const int           videoBitRate_low = 400*1000;
     filterGesture = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipeFrom:)];
     [filterGesture setDirection:(UISwipeGestureRecognizerDirectionLeft)];
     [self.view addGestureRecognizer:filterGesture];
-#endif
 }
 
 - (void)getLiveConfigure {
