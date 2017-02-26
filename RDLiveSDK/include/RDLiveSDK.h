@@ -204,11 +204,6 @@ typedef NS_ENUM (NSInteger, RDRtmpPublishWaterMarkLocation) {
  */
 @property (nonatomic, assign) BOOL          useAdaptiveBitrate;
 
-/**
- *  是否根据用户网络自动调节帧率; Default is off
- */
-@property (nonatomic, assign) BOOL          useAdaptiveFps; //20160617 wuxiaoxia
-
 @property (nonatomic, readonly) RDLiveAuthorizationType authType;
 
 /**
@@ -349,6 +344,7 @@ typedef NS_ENUM (NSInteger, RDRtmpPublishWaterMarkLocation) {
  *  添加水印
  *
  *  @param waterView 水印(可支持UIImageView和UILabel)
+ *  @param location  水印标准位置，左右上下，中心点
  *  设置位置：(1)位置均由设置的rect的origin决定
  *          (2)只设置竖屏时水印位置即可，横屏时的位置，SDK内会做处理
  */
