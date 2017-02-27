@@ -61,12 +61,12 @@
     
     //使用锐动服务器时，请输入直播UID
     //使用第三方服务器时，请输入直播地址
-    contentTextField = [[UITextField alloc]initWithFrame:CGRectMake(10, 40, SCREEN_WIDTH - 20, 30)];
+    contentTextField = [[UITextField alloc]initWithFrame:CGRectMake(10, 40, SCREEN_WIDTH - 20, 40)];
     contentTextField.backgroundColor = [UIColor clearColor];
     contentTextField.layer.borderWidth = 1.0;
     contentTextField.layer.borderColor = UIColorFromRGB(CommonColor).CGColor;
     contentTextField.layer.cornerRadius = 5.0;
-    contentTextField.font = [UIFont systemFontOfSize:14.0];
+    contentTextField.font = [UIFont systemFontOfSize:16.0];
     contentTextField.textColor = [UIColor blackColor];
     contentTextField.textAlignment = NSTextAlignmentLeft;
     contentTextField.placeholder = @"请输入UID(数字或小写字母、3-32个字节)";
@@ -76,22 +76,22 @@
     [self.view addSubview:contentTextField];
     
     UIButton *liveBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    liveBtn.frame = CGRectMake(20, 100, (SCREEN_WIDTH - 20*3)/2, 40);
+    liveBtn.frame = CGRectMake(20, (SCREEN_HEIGHT - 64 - 40)/2 - 50, (SCREEN_WIDTH - 20*3)/2, 40);
     liveBtn.backgroundColor = UIColorFromRGB(CommonColor);
     liveBtn.layer.masksToBounds = YES;
     liveBtn.layer.cornerRadius = 5.0;
-    liveBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    liveBtn.titleLabel.font = [UIFont systemFontOfSize:19];
     [liveBtn setTitle:@"发起直播" forState:UIControlStateNormal];
     liveBtn.tag = 11;
     [liveBtn addTarget:self action:@selector(liveOrPlayBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:liveBtn];
     
     UIButton *playBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    playBtn.frame = CGRectMake(SCREEN_WIDTH - (SCREEN_WIDTH - 20*3)/2 - 20, 100, (SCREEN_WIDTH - 20*3)/2, 40);
+    playBtn.frame = CGRectMake(SCREEN_WIDTH - (SCREEN_WIDTH - 20*3)/2 - 20, (SCREEN_HEIGHT - 64 - 40)/2 - 50, (SCREEN_WIDTH - 20*3)/2, 40);
     playBtn.backgroundColor = UIColorFromRGB(CommonColor);
     playBtn.layer.masksToBounds = YES;
     playBtn.layer.cornerRadius = 5.0;
-    playBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    playBtn.titleLabel.font = [UIFont systemFontOfSize:19];
     [playBtn setTitle:@"看直播" forState:UIControlStateNormal];
     playBtn.tag = 12;
     [playBtn addTarget:self action:@selector(liveOrPlayBtnAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -297,6 +297,7 @@
         useThirdPartyServerBtn.selected = YES;
         hintLbl.text = @"URL:";
         contentTextField.placeholder = @"请输入rtmp流地址";
+        contentTextField.text = @"rtmp://";
     }
     
     CGRect newFrame = selectedServerView.frame;

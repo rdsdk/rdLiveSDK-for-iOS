@@ -28,7 +28,8 @@
 ####&emsp;截图
 <img src="website/static/live1.jpg" width = "200" /> <img src="website/static/live2.jpg" width = "200" /> <img src="website/static/live3.jpg" width = "200" /> <img src="website/static/live4.jpg" width = "200" />
 ###功能试用：
- 
+ 最新SDKDemo下载(以下链接是最新的，github代码会有稍有延迟)：
+ [SDK下载请单击](http://d.56show.com/rdsdk/private/pack/rd_live_ios_20170227.zip)
 
 ###关于授权：
 
